@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.mohaberabi.masterdesignpattern.apply.behavioral.chain_of_responsiblity.HelpScreen
+import com.mohaberabi.masterdesignpattern.apply.behavioral.command.ThemeChangerScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.iterator.QuranScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.memento.BlogScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.observer.TemperatureScreen
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MasterDesignPatternTheme {
-                MediaPlayerScreen()
+                ThemeChangerScreen()
             }
         }
     }
