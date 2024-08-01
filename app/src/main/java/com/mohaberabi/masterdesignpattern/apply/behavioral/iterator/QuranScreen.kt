@@ -21,7 +21,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.mohaberabi.masterdesignpattern.theoritical.behavioral.iterator.base.AppIterator
 import com.mohaberabi.masterdesignpattern.theoritical.behavioral.iterator.impl.Quran
-import com.mohaberabi.masterdesignpattern.theoritical.behavioral.iterator.impl.QuranIterator
 import com.mohaberabi.masterdesignpattern.theoritical.behavioral.iterator.impl.QuranIteratorAggregator
 import kotlinx.coroutines.delay
 
