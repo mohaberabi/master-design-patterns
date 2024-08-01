@@ -18,6 +18,7 @@ import com.mohaberabi.masterdesignpattern.apply.behavioral.memento.BlogScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.observer.TemperatureScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.state.MediaPlayerScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.strategy.CartScreen
+import com.mohaberabi.masterdesignpattern.apply.creational.StorageScreen
 import com.mohaberabi.masterdesignpattern.ui.theme.MasterDesignPatternTheme
 
 class MainActivity : ComponentActivity() {
@@ -26,7 +27,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MasterDesignPatternTheme {
-                ThemeChangerScreen()
+                StorageScreen()
             }
         }
     }
