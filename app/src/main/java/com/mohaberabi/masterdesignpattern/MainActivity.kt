@@ -15,6 +15,7 @@ import com.mohaberabi.masterdesignpattern.apply.behavioral.chain_of_responsiblit
 import com.mohaberabi.masterdesignpattern.apply.behavioral.iterator.QuranScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.memento.BlogScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.observer.TemperatureScreen
+import com.mohaberabi.masterdesignpattern.apply.behavioral.state.MediaPlayerScreen
 import com.mohaberabi.masterdesignpattern.apply.behavioral.strategy.CartScreen
 import com.mohaberabi.masterdesignpattern.ui.theme.MasterDesignPatternTheme
 
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MasterDesignPatternTheme {
-                HelpScreen()
+                MediaPlayerScreen()
             }
         }
     }
