@@ -4,24 +4,24 @@ package com.mohaberabi.masterdesignpattern.theoritical.creational.factory
 interface AppNotification {
 
 
-    fun notify()
+    fun sendNotification()
 }
 
 
 class PushNotification : AppNotification {
-    override fun notify() {
+    override fun sendNotification() {
         println("Push Noti ")
     }
 }
 
 class InAppNotification : AppNotification {
-    override fun notify() {
+    override fun sendNotification() {
         print("App Noti")
     }
 }
 
 class EmailNotification : AppNotification {
-    override fun notify() {
+    override fun sendNotification() {
         println("Email Noti")
     }
 }

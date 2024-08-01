@@ -1,4 +1,4 @@
-package com.mohaberabi.masterdesignpattern.apply.creational
+package com.mohaberabi.masterdesignpattern.apply.creational.singleton
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
