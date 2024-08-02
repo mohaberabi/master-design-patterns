@@ -10,7 +10,9 @@ class CmpIosButton : KmpButton {
     @Composable
     override operator fun invoke() {
 
-        Button(onClick = {}) {
+        Button(
+            onClick = {},
+        ) {
             Text(text = "Iam IOS Button ")
         }
     }
