@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.mohaberabi.masterdesignpattern.apply.structural.bridge.UserProfileScreen
 import com.mohaberabi.masterdesignpattern.apply.structural.composite.ComposeAbleScreen
+import com.mohaberabi.masterdesignpattern.apply.structural.decorator.DecoratorScreen
 import com.mohaberabi.masterdesignpattern.ui.theme.MasterDesignPatternTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MasterDesignPatternTheme {
-                ComposeAbleScreen()
+                DecoratorScreen()
             }
         }
     }

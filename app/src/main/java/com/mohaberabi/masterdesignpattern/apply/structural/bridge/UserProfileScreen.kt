@@ -45,7 +45,6 @@ fun UserProfileScreen(modifier: Modifier = Modifier) {
                             profile = getUserData("dummy")
                         }
 
-
                     },
                 ) {
                     Text(
