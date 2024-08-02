@@ -1,4 +1,4 @@
-package com.mohaberabi.masterdesignpattern.apply.structural
+package com.mohaberabi.masterdesignpattern.apply.structural.bridge
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -7,17 +7,14 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.mohaberabi.masterdesignpattern.theoritical.structural.bridge.base.ProfileDataSource
 import com.mohaberabi.masterdesignpattern.theoritical.structural.bridge.base.ProfileModel
 import com.mohaberabi.masterdesignpattern.theoritical.structural.bridge.impl.DefaultProfileRepository
-import com.mohaberabi.masterdesignpattern.theoritical.structural.bridge.impl.InMemoryProfileLocalDataSource
 import com.mohaberabi.masterdesignpattern.theoritical.structural.bridge.impl.InMemoryProfileRemoteDataSource
 
 
